@@ -42,18 +42,18 @@ Ce guide mentionnera l'architecture et les fonctions utiles du projet ainsi que 
 
 #### L'architecture du projet
 
-Le projet se décompose en 4 fichiers.
-- server.R (gère les outputs et les intéractions avec les différents menus)
-- ui.R (gère l'organisation de l'application)
-- global.R (gère l'appel des bases de données et leur manipulation, ainsi que la déclaration de fonctions)
+Le projet se décompose en 4 fichiers qui se trouvent dans le dossier **Covid-19** .
+- **server.R** (gère les outputs et les intéractions avec les différents menus)
+- **ui.R** (gère l'organisation de l'application)
+- **global.R** (gère l'appel des bases de données et leur manipulation, ainsi que la déclaration de fonctions)
 - README.md
 
 #### Les différents blocs de code présentent dans le projet
 
-Dans le fichier **app.py**<br>
-> - Les blocs présents dans global2.R permettent de créer un dataframe en isolant les données que l'on souhaite utilisées. Içi, on utilisera les données:total_cases_per_million et total_deaths_per_million ainso que la date d'enregistrement des données.
-> - Les blocs présents dans server.R permettent de créer les courbes ainsi que des cartes choropleths qui seront présentes sur l'application.
-> - Les blocs présents dans ui.R permettent de créer le dashboard et d'y relier les différentes cartes et courbes afin qu'elles soient affichées sur l'application.
+Dans le fichier Covid-19, on trouve nos 3 fichiers qui permettent de créer notre dashboard.
+> - Les blocs présents dans le fichier **global2.R** permettent de créer un dataframe en isolant les données que l'on souhaite utilisées. Içi, on utilisera les données:total_cases_per_million et total_deaths_per_million ainso que la date d'enregistrement des données.
+> - Les blocs présents dans le fichier **server.R** permettent de créer les courbes ainsi que des cartes choropleths qui seront présentes sur l'application.
+> - Les blocs présents dans le fichier **ui.R** permettent de créer le dashboard et d'y relier les différentes cartes et courbes afin qu'elles soient affichées sur l'application.
 
 ## Lien vers le dataset
 
@@ -65,5 +65,6 @@ Base de données : https://covid.ourworldindata.org/data/owid-covid-data.json<br
 - Le dézipper
 - Ouvrir RStudio
 - Installer les librairies requises (mentionnées dans le User's Guide)
-- Cliquer sur le bouton 'Run App' de l'application
+- Ouvrir les fichiers **global2.R**, **server.R** et **ui.R** qui se situent dans le dossier **Covid-19**
+- Cliquer sur le bouton 'Run App' de l'application (du fichier **uii.R**)
 - Visualiser l'application soit dans un navigateur web avec l'adresse mentionnée dans la console RStudio soit dans le panel view de RStudio
