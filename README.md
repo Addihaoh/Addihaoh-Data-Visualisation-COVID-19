@@ -66,5 +66,5 @@ Base de données : https://covid.ourworldindata.org/data/owid-covid-data.json<br
 - Ouvrir RStudio
 - Installer les librairies requises (mentionnées dans le User's Guide)
 - Ouvrir les fichiers **global2.R**, **server.R** et **ui.R** qui se situent dans le dossier **Covid-19**
-- Cliquer sur le bouton 'Run App' de l'application (du fichier **uii.R**)
+- Cliquer sur le bouton 'Run App' de l'application (du fichier **ui.R**)
 - Visualiser l'application soit dans un navigateur web avec l'adresse mentionnée dans la console RStudio soit dans le panel view de RStudio
